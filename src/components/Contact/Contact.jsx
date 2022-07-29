@@ -3,7 +3,7 @@ import rocket from "../../assets/Contact/rocket.png";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-10 md:items-center md:justify-between w-auto">
+    <div className="flex flex-col md:flex-row gap-10 md:items-center md:justify-evenly w-auto">
       <div className="flex flex-col items-center gap-5">
         <h1 className="flex text-[36px]">NAF IT ACADEMY</h1>
         <h3 className="flex text-[36px]">BILAN BOG’LANISH</h3>
@@ -49,7 +49,7 @@ const Contact = () => {
             <input type="checkbox" />
             <p>
               Men shaxsiy ma'lumotlarni qayta ishlashga <br />
-              rozilik beraman va maxfiylik siyosatiga roziman
+              rozilik beraman va <span> maxfiylik siyosatiga </span> roziman
             </p>
           </div>
         </form>

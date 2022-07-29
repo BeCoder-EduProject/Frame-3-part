@@ -2,16 +2,18 @@ import React from "react";
 import img1 from "../../assets/Chegirmalar/img1.svg";
 const Chegirmalar = () => {
   return (
-    <div className="flex flex-col items-center p-10 gap-10">
-      <div className="flex flex-col md:flex-row items-center gap-2">
-        <h3 className="flex">REAL IMKONIYATLAR TAQDIM ETUVCHI </h3>
-        <h1 className="flex">CHEGIRMALAR</h1>
+    <div className="flex flex-col items-center pt-24 gap-10">
+      <div className="flex flex-col md:flex-row items-center gap-10">
+        <h3 className="text-[36px] text-center ">
+          REAL IMKONIYATLAR TAQDIM ETUVCHI
+          <span>CHEGIRMALAR</span>
+        </h3>
       </div>
-      <div className="flex">
-        <p className="flex">
-          Agar doʻstingiz sizning tavsiyangizga koʻra bizning oʻquv markazimizda
-          taʼlim olsa, <br /> bizdagi istalgan kursning dastlabki oyi uchun 50%
-          chegirmani qoʻlga kiritasiz!
+      <div className="flex items-center justify-center">
+        <p className=" text-center">
+          Agar doʻstingiz <span> sizning tavsiyangizga koʻra </span> bizning
+          oʻquv markazimizda taʼlim olsa, bizdagi istalgan <br /> kursning
+          dastlabki oyi uchun <span> 50% chegirmani </span> qoʻlga kiritasiz!
         </p>
       </div>
       <div className="flex">

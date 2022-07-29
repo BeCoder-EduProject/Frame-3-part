@@ -9,69 +9,84 @@ const Courses = () => {
       </div>
       <div className="flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
         {/* box start */}
-        <div className="flex flex-col gap-5 border-accent items-start border p-5 bg-white">
+        <div
+          id="icon"
+          className="flex flex-col gap-5 border-accent items-start border p-5 bg-white"
+        >
           <h3>Web dasturlash</h3>
           {/* <div className="flex-flex-col items-center justify-center"> */}
           <div className="flex">
             <p className="flex border-accent border-2 p-2 rounded-2xl">9oy</p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 ">
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
               Oflayn
             </p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10">
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
               108dars + amaliyot
             </p>
           </div>
           <img src={img1} alt="" />
           {/* </div> */}
         </div>
-        <div className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white">
-          <h3>Web dasturlash</h3>
+        <div
+          id="icon"
+          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+        >
+          <h3>Digital Marketing</h3>
           <div className="flex">
-            <p className="flex border-accent border-2 p-2 rounded-2xl">9oy</p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 ">
+            <p className="flex border-accent border-2 p-2 rounded-2xl">3oy</p>
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center  ">
               Oflayn
             </p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10">
-              108dars + amaliyot
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
+              36dars + amaliyot
             </p>
           </div>
           <img src={img1} alt="" />
         </div>
-        <div className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white">
-          <h3>Web dasturlash</h3>
+        <div
+          id="icon"
+          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+        >
+          <h3>Grafik Dizayn</h3>
           <div className="flex">
-            <p className="flex border-accent border-2 p-2 rounded-2xl">9oy</p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 ">
+            <p className="flex border-accent border-2 p-2 rounded-2xl">4oy</p>
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center  ">
               Oflayn
             </p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10">
-              108dars + amaliyot
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
+              488dars + amaliyot
             </p>
           </div>
           <img src={img1} alt="" />
         </div>
-        <div className="flex flex-col gap-5 border-accent items-start border p-5 bg-white">
-          <h3>Web dasturlash</h3>
+        <div
+          id="icon"
+          className="flex flex-col gap-5 border-accent items-start border p-5 bg-white"
+        >
+          <h3>Web Dizayn</h3>
           <div className="flex">
-            <p className="flex border-accent border-2 p-2 rounded-2xl">9oy</p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 ">
+            <p className="flex border-accent border-2 p-2 rounded-2xl">4oy</p>
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center  ">
               Oflayn
             </p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10">
-              108dars + amaliyot
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
+              48dars + amaliyot
             </p>
           </div>
           <img src={img1} alt="" />
         </div>
-        <div className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white">
-          <h3>Web dasturlash</h3>
+        <div
+          id="icon"
+          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+        >
+          <h3>Komputer savodxonligi</h3>
           <div className="flex">
-            <p className="flex border-accent border-2 p-2 rounded-2xl">9oy</p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 ">
+            <p className="flex border-accent border-2 p-2 rounded-2xl">2oy</p>
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center  ">
               Oflayn
             </p>
-            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10">
-              108dars + amaliyot
+            <p className="flex border-accent border-2 p-2 rounded-3xl pl-10 pr-10 m-[-5px] bg-[white] items-center justify-center ">
+              48dars + amaliyot
             </p>
           </div>
           <img src={img1} alt="" />
