@@ -2,12 +2,16 @@ import React from "react";
 import money from "../../assets/hero/img4.svg";
 import money2 from "../../assets/hero/img2.svg";
 import money3 from "../../assets/hero/img3.svg";
-import img1 from "../../assets/hero/img1.png";
+import img1 from "../../assets/hero/img.svg";
 
 const HeroMiddle = () => {
   return (
     <div className="flex flex-col items-center bg-black py-14 gap-10 bg-[url('./assets/HeroMiddle.png')] bg-no-repeat  bg-center ">
-      <img className=" w-full bg-auto " src={img1} alt="" />
+      <img
+        className=" w-full pl-10 md:pl-20 lg:pl-28 bg-cover "
+        src={img1}
+        alt=""
+      />
       <div className="flex items-center justify-between gap-10 w-full bg-cover ">
         {/* must be fixed */}
         {/* <div className="flex border-accent border-r-2 w-[300px] h-[220px]"></div>

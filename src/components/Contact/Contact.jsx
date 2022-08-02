@@ -3,7 +3,7 @@ import rocket from "../../assets/Contact/rocket.png";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-10 md:items-center md:justify-evenly w-auto">
+    <div className="flex flex-col md:flex-row gap-10 md:items-center md:justify-evenly w-auto py-20">
       <div className="flex flex-col items-center gap-5">
         <h1 className="flex text-[36px]">NAF IT ACADEMY</h1>
         <h3 className="flex text-[36px]">BILAN BOG’LANISH</h3>
@@ -21,7 +21,7 @@ const Contact = () => {
           className="space-y-8 flex flex-col  "
         >
           <div className="flex flex-col gap-2">
-            <label for="name">Ism</label>
+            <label htmlFor="name">Ism</label>
             <input name="name" type="text" className="input" />
           </div>
           <div className="flex flex-col gap-2">
@@ -38,7 +38,7 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col gap-2">
-            <label for="name">Xabaringizni qoldiring</label>
+            <label htmlFor="name">Xabaringizni qoldiring</label>
 
             <textarea className="textarea"></textarea>
           </div>

@@ -7,8 +7,8 @@ import img4 from "../../assets/Footer/Facebook.svg";
 
 const Footer = () => {
   return (
-    <div className="flex h-[483px] bg-black items-center w-full justify-evenly">
-      <div className="flex flex-col items-start gap-3">
+    <div className="flex flex-col lg:flex-row h-auto p-10 bg-black items-center w-full justify-evenly">
+      <div className="flex flex-col items-start gap-3 ">
         <img src={logo} alt="" />
         <p>Address</p>
         <a href="#">
@@ -48,7 +48,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex border-2 bg-[white] w-[300px] h-[300px]"></div>
+      <div className="flex mt-10 lg:mt-0 border-2 bg-[white] w-[300px] h-[300px]"></div>
     </div>
   );
 };

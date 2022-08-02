@@ -2,10 +2,10 @@ import React from "react";
 import img1 from "../../assets/Chegirmalar/img1.svg";
 const Chegirmalar = () => {
   return (
-    <div className="flex flex-col items-center pt-24 gap-10">
+    <div className="flex flex-col items-center pt-24 gap-10 p-10">
       <div className="flex flex-col md:flex-row items-center gap-10">
-        <h3 className="text-[36px] text-center ">
-          REAL IMKONIYATLAR TAQDIM ETUVCHI
+        <h3 className="text-[36px] text-center gap-10 ">
+          REAL IMKONIYATLAR TAQDIM <br /> <br /> ETUVCHI
           <span>CHEGIRMALAR</span>
         </h3>
       </div>
