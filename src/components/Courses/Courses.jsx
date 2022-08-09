@@ -11,7 +11,7 @@ const Courses = () => {
         {/* box start */}
         <div
           id="icon"
-          className="flex flex-col gap-5 border-accent items-start border p-5 bg-white"
+          className="flex w-auto flex-col gap-5 border-accent items-start border p-5 bg-white"
         >
           <h3>Web dasturlash</h3>
           {/* <div className="flex-flex-col items-center justify-center"> */}
@@ -29,7 +29,7 @@ const Courses = () => {
         </div>
         <div
           id="icon"
-          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+          className="flex  w-auto  flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
         >
           <h3>Digital Marketing</h3>
           <div className="flex">
@@ -45,7 +45,7 @@ const Courses = () => {
         </div>
         <div
           id="icon"
-          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+          className="flex  w-auto  flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
         >
           <h3>Grafik Dizayn</h3>
           <div className="flex">
@@ -61,7 +61,7 @@ const Courses = () => {
         </div>
         <div
           id="icon"
-          className="flex flex-col gap-5 border-accent items-start border p-5 bg-white"
+          className="flex  w-auto  flex-col gap-5 border-accent items-start border p-5 bg-white"
         >
           <h3>Web Dizayn</h3>
           <div className="flex">
@@ -77,7 +77,7 @@ const Courses = () => {
         </div>
         <div
           id="icon"
-          className="flex flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
+          className="flex  w-auto  flex-col gap-5 border-accent items-start border-2 p-5 bg-white"
         >
           <h3>Komputer savodxonligi</h3>
           <div className="flex">

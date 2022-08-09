@@ -4,7 +4,7 @@ const Chegirmalar = () => {
   return (
     <div className="flex flex-col items-center pt-24 gap-10 p-10">
       <div className="flex flex-col md:flex-row items-center gap-10">
-        <h3 className="text-[36px] text-center gap-10 ">
+        <h3 className="text-xl text-center gap-10 ">
           REAL IMKONIYATLAR TAQDIM <br /> <br /> ETUVCHI
           <span>CHEGIRMALAR</span>
         </h3>

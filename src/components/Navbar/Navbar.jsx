@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Humberger */}
         <div
           onClick={handleClick}
-          className="md:hidden absolute right-10 z-10 cursor-pointer"
+          className="md:hidden absolute right-10 z-10 cursor-pointer "
         >
           {!nav ? (
             <FaBars size={23} />
@@ -66,12 +66,14 @@ const Navbar = () => {
           className={
             !nav
               ? "hidden"
-              : "absolute top-0 right-0  divide-y-[2px] divide-gray-400 bg-white text-black font-medium  h-screen w-[80%] pt-14"
+              : "absolute top-0 right-0  divide-y-[2px] divide-gray-400 bg-white text-black font-medium  h-[300vh] w-[80%] pt-14"
           }
         >
-          <li className="p-3 hover:text-[#FFAD3C] duration-200 cursor-pointer hover:bg-black">
-            Kurslar
-          </li>
+          <Link to="whitePage">
+            <li className="p-3 hover:text-[#FFAD3C] duration-200 cursor-pointer hover:bg-black">
+              Kurslar
+            </li>
+          </Link>
           <li className="p-3 hover:text-[#FFAD3C] duration-200 cursor-pointer hover:bg-black">
             Ochiq darslar
           </li>
